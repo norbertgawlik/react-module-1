@@ -1,5 +1,5 @@
 import './App.css'
-import { Text, Button } from './ui'
+import { Text, Button, Header } from './ui'
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Header>Szkoła React 2.0</Header>
       <Text>Hello!</Text>  
       <div><Button 
         onClick={handleClick}
